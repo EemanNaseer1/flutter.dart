@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myproject/chess_board.dart';
+import 'package:myproject/periodic_table.dart';
+import 'package:myproject/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Chessboard(),
+      home: ProfileScreen(),
     );
   }
-
-  bool get newMethod => false;
 }

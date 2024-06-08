@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const Chessboard());
+}
+
 class Chessboard extends StatelessWidget {
   const Chessboard({super.key});
 
