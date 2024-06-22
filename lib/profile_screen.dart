@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const ProfileScreen());
+}
+
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 
@@ -11,7 +15,7 @@ class ProfileScreen extends StatelessWidget {
         leading: Text("Back"),
         title: Text("I am Title"),
       ),
-      body: Text("Hello World"),
+      body: Text("Eeman Naseer, Painting, Cooking, Accountant "),
       backgroundColor: Colors.pinkAccent,
     );
   }
